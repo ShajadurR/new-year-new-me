@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+/* Header Styles */
+header {
+  width: 1800px;
+  height: 900px;
+  background-image: url(/images/banner/banner2.png);
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.header-content {
+  text-align: right;
+  width: 700px;
+  margin: 20px 200px;
+}
+.header-discription {
+    margin-top: 30px;
+    color: #312f2f;
+    font-size: 20px;
+    
+}
+
+.header-btn {
+  height: 64px;
+  border-radius: 5px;
+  border: 0;
+  padding: 18px 35px;
+  color: #fff;
+  font-weight: 700px;
+  font-size: 20px;
+  background: #FD6E0A;
+  margin-top: 30px;
+}
+
+/* Main Styles */
+
+.main-1st {
+  display: flex;
+  margin: 20px 200px;
+  align-items: center;
+}
+
+.main-title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700px;
+}
+
+.main-content {
+    text-align: left;
+    margin: 20px 200px;
+}
+
+.main-discription {
+  margin-top: 20px;
+  color: #312f2f;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.sub-description {
+  gap: 10px;
+  font-size: 15px;
+}
+
+/* My plan Section */
+
+.my-plan {
+  margin-top: 100px;
+  text-align: center;
+  padding: 120px 140px;
+  border-radius: 5px;
+}
+.section-title {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 700px;
+}
+
+
+.about-my-plan {
+  display: flex;
+  gap: 350px;
+}
+
+.plan-info {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+/* Another Section styles */
+
+.another-section {
+  width: 1000px;
+  height: 200px;
+  background-image: url(/images/watch.png) ;
+  background: linear-gradient(url(/images/gradient3.png));
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  margin-left: 500px;
+}
+.another-section-title {
+  color: #fff;
+  padding: 20px 20px;
+}
+
+.another-div {
+
+}
+
+.another-section-btn {
+  height: 64px;
+  border-radius: 5px;
+  border: 0;
+  padding: 18px 35px;
+  color: #FD6E0A;
+  font-weight: 400px;
+  font-size: 15px;
+  background: #fff;
+  margin-left: 10px;
+}
+
+
+/* Footer Section */
+
+.footer {
+  width: 1800px;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  padding: 100px 180px;
+  
+}
+.footer-title {
+  font-size: 30px;
+  font-weight: 500px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.footer-discription {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-second-title {
+  font-size: 20px;
+  font-weight: 500px;
+  color: #fff;
+}
+
+.footer-btn {
+  height: 44px;
+  border-radius: 5px;
+  border: 0;
+  padding: 12px 35px;
+  color: #FD6E0A;
+  font-weight: 900px;
+  font-size: 15px;
+  background: #fff;
+  margin-top: 10px;
+  
+}
